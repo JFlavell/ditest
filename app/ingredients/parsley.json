@@ -1,0 +1,19 @@
+{
+	"ingredient": {
+		"name": "PARSLEY",
+		"parentIngredient": "",
+		"links": [{
+			"name": "subtype",
+			"ingredient": "FRESH_PARSLEY",
+			"parentIngredient": "PARSLEY"
+			},{
+			"name": "subtype",
+			"ingredient": "DRIED_PARSLEY",
+			"parentIngredient": "PARSLEY"			
+			},{
+			"name": "component",
+			"ingredient": "PARSLEY_LEAF",
+			"parentIngredient": "PARSLEY"	
+			}]
+	}
+}

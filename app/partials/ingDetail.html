@@ -1,0 +1,24 @@
+<ul class="menu">
+  <li>
+  	<a href="#/ingredients">
+  		Ingredient List
+  	</a>
+  </li>
+</ul>
+<div class="hero-unit">
+	<h1>{{ing.ingredient.name}}:
+		<a ng-href="#/ingredients/{{ing.ingredient.parentIngredient}}">
+			{{ing.ingredient.parentIngredient}}
+		</a>
+	</h1>
+	<hr/>
+	<h3>Links to: </h3>
+	<ul>
+		<li ng-repeat="link in ing.ingredient.links">
+			({{link.name}}) ->
+			<a ng-href="#/ingredients/{{link.ingredient}}">
+				{{link.ingredient}}
+			</a>
+		</li>
+	</ul>
+</div>

@@ -1,0 +1,29 @@
+
+<div class="hero-unit">
+	<h1>Ingredients List</h1>
+	<hr/>
+	<ul>
+		<li ng-repeat="ingredient in ing">
+			<a ng-href="#/ingredients/{{ingredient.name}}">
+				{{ingredient.name}}
+			</a>
+		</li>
+	</ul>
+</div>
+
+
+
+<!--<div class="hero-unit">
+	<h1>{{ing.ingredient.name}}</h1>
+	<hr/>
+	<h3>Links to: </h3>
+	<ul>
+		<li ng-repeat="link in ing.ingredient.links">
+			({{link.name}}) ->
+			<a ng-href="#/ingredients/{{link.ingredient}}">
+				{{link.ingredient}}
+			</a>
+		</li>
+	</ul>
+</div>-->
+
